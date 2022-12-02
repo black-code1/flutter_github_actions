@@ -42,7 +42,7 @@ jobs:
           flutter format --set-exit-if-changed .
           flutter analyze
           flutter test
-          flutter build apk --debug
+          flutter build apk
 
       # Runs a set of commands using the runners shell
       - name: Start release build
